@@ -84,7 +84,7 @@
                     <navigationItem key="navigationItem" title="Coder Swag" id="HOz-HQ-zAh"/>
                     <connections>
                         <outlet property="categoryTable" destination="XIK-F0-JMs" id="X0z-xT-TDR"/>
-                        <segue destination="Nqw-Nd-iHw" kind="show" id="aKp-VC-xcD"/>
+                        <segue destination="Nqw-Nd-iHw" kind="show" identifier="ProductsVC" id="aKp-VC-xcD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -95,7 +95,7 @@
         <scene sceneID="Fp9-JT-elJ">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M6o-Vo-TWi" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="Nqw-Nd-iHw" sceneMemberID="viewController">
+                <viewController id="Nqw-Nd-iHw" customClass="ProductsVC" customModule="coder_swag" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L2l-w4-vjl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -110,7 +110,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="JHL-n3-4r2" customClass="ProductCell" customModule="coder_swag" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductCell" id="JHL-n3-4r2" customClass="ProductCell" customModule="coder_swag" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="175" height="250"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -176,6 +176,9 @@
                         <viewLayoutGuide key="safeArea" id="SZJ-L0-uTP"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="GCu-2n-Evl"/>
+                    <connections>
+                        <outlet property="productsCollection" destination="170-Dy-PVa" id="UD5-gf-kRj"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1460" y="115.59220389805098"/>

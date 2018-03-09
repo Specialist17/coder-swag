@@ -16,7 +16,7 @@
 		9070874D204E02560075AD25 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070874C204E02560075AD25 /* Category.swift */; };
 		908293E12050C5C700F88CB2 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908293E02050C5C700F88CB2 /* DataService.swift */; };
 		908293E32050CE2300F88CB2 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908293E22050CE2300F88CB2 /* ProductCell.swift */; };
-		908293E52050CED700F88CB2 /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908293E42050CED700F88CB2 /* ProductVC.swift */; };
+		908293E52050CED700F88CB2 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908293E42050CED700F88CB2 /* ProductsVC.swift */; };
 		908293E72050CEE100F88CB2 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908293E62050CEE100F88CB2 /* Product.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +32,7 @@
 		9070874C204E02560075AD25 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		908293E02050C5C700F88CB2 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		908293E22050CE2300F88CB2 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
-		908293E42050CED700F88CB2 /* ProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
+		908293E42050CED700F88CB2 /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
 		908293E62050CEE100F88CB2 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				90708737204D81ED0075AD25 /* CategoriesVC.swift */,
-				908293E42050CED700F88CB2 /* ProductVC.swift */,
+				908293E42050CED700F88CB2 /* ProductsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -188,7 +188,7 @@
 			files = (
 				90708738204D81ED0075AD25 /* CategoriesVC.swift in Sources */,
 				908293E72050CEE100F88CB2 /* Product.swift in Sources */,
-				908293E52050CED700F88CB2 /* ProductVC.swift in Sources */,
+				908293E52050CED700F88CB2 /* ProductsVC.swift in Sources */,
 				90708736204D81ED0075AD25 /* AppDelegate.swift in Sources */,
 				9070874B204D85680075AD25 /* CategoryCell.swift in Sources */,
 				908293E32050CE2300F88CB2 /* ProductCell.swift in Sources */,
